@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background-color: gainsboro;
+}
+
+html,body{
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    justify-content: space-between;
+    border-bottom: solid 0.2rem black;
+    font-size: 3rem;
+}
+div{
+    border: solid 0.2rem black;
+    border-radius: 3rem;
+    padding: 0.4rem;
+    font-size: 2rem;
+}
+img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+input{
+    background-color: ghostwhite;
+    border: solid 0.2rem black;
+    width: 50rem;
+    height: 2.5rem;
+    border-radius: 3rem;
+}
+footer{
+    display: flex;
+    align-items: center;
+}
+article{
+    display: flex;
+    justify-content: space-around;
+    width: 15rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.artigo{
+    width: 50rem;
+    height: 15rem;
+}
